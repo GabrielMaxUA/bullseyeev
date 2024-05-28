@@ -14,6 +14,7 @@
 		381B1BE22BFD6AF500BAC16F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 381B1BE12BFD6AF500BAC16F /* Assets.xcassets */; };
 		381B1BE52BFD6AF500BAC16F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 381B1BE42BFD6AF500BAC16F /* Base */; };
 		3864F50A2C055C6800B9618E /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864F5092C055C6800B9618E /* AboutViewController.swift */; };
+		3864F50C2C056A7400B9618E /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 3864F50B2C056A7400B9618E /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		381B1BE42BFD6AF500BAC16F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		381B1BE62BFD6AF500BAC16F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3864F5092C055C6800B9618E /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		3864F50B2C056A7400B9618E /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../ia-materials/01-getting-started/Resources/BullsEye.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		381B1BCC2BFD6AF400BAC16F = {
 			isa = PBXGroup;
 			children = (
+				3864F50B2C056A7400B9618E /* BullsEye.html */,
 				381B1BD72BFD6AF400BAC16F /* BullsEye */,
 				381B1BD62BFD6AF400BAC16F /* Products */,
 			);
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				381B1BE22BFD6AF500BAC16F /* Assets.xcassets in Resources */,
+				3864F50C2C056A7400B9618E /* BullsEye.html in Resources */,
 				381B1BE52BFD6AF500BAC16F /* Base in Resources */,
 				381B1BE02BFD6AF500BAC16F /* Base in Resources */,
 			);
