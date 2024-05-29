@@ -103,6 +103,12 @@ class ViewController: UIViewController {
       score = 0
       round = 1
       startOver()
+        let transition = CATransition()
+        transition.type = CATransitionType.fade
+        transition.duration = 1
+        transition.timingFunction = CAMediaTimingFunction(
+          name: CAMediaTimingFunctionName.easeOut)
+        view.layer.add(transition, forKey: nil)
     }
 
     
